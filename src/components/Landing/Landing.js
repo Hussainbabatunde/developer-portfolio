@@ -7,6 +7,7 @@ import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
+import pic from '../../data/profile.jpeg';
 
 import {
     FaTwitter,
@@ -143,7 +144,7 @@ function Landing() {
                     </div>
                 </div>
                 <img
-                    src={headerData.image}
+                    src={pic}
                     alt=''
                     className='landing--img'
                     style={{

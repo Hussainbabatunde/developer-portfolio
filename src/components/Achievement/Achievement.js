@@ -1,5 +1,5 @@
 import React, { useContext} from 'react';
-
+import cert from '../../data/cert.png';
 import './Achievement.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { achievementData } from '../../data/achievementData'
@@ -25,7 +25,7 @@ function Achievement() {
                         details={achieve.details}
                         date={achieve.date}
                         field={achieve.field}
-                        image={achieve.image}/>
+                        image={cert}/>
                     ))}
                 </div>
             </div>

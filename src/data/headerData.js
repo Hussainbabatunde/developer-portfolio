@@ -1,9 +1,10 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from './hussainbabatundeCV.pdf';
+import pic from './profile.jpeg';
 
 export const headerData = {
-    name: 'Sreerag Rajan',
+    name: 'Hussain Babatunde',
     title: "Web Developer",
-    desciption:"Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
-    image: 'https://avatars.githubusercontent.com/u/85482640?v=4',
+    desciption:"The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.",
+    image: 'pic',
     resumePdf: resume
 }
